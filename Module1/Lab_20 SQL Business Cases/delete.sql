@@ -1,0 +1,5 @@
+SELECT distinct(VIN), COUNT(*)
+FROM cars
+GROUP BY 1;
+
+DELETE FROM cars WHERE ID = 5;
